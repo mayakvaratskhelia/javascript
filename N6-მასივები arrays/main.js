@@ -51,6 +51,7 @@ const brands ={
   name: 'sony',
   color: 'red',
 }
+ 
 // console.log(typeof(cars));
 // //object
 // console.log(typeof(brands));
