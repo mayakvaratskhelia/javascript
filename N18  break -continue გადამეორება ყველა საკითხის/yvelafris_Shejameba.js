@@ -67,7 +67,31 @@ for(let i = 0; i < xili.length; i++){
 //მეოთხე ფუნქცია
 
 function akademia(x) {
-  console.log(`ააწყვე აკადემიის საიტი  ${x} ცალი `);
+ // console.log(`ააწყვე აკადემიის საიტი  ${x} ცალი `);
 }
 akademia(25)
+
+
+
+ function person(name, surname) {
+  //console.log(`მოგესალმები ${name}  ${surname}`);
+ }
+person(`მაია`,`კვარაცხელია`)
+
+
+//როგორ ჩავჭეროთ მოკლედ ფუნქციები 
+
+
+const person_woman = (name, surname) => `${name} ${surname}`
+console.log(person_woman(`maya`, `kvaratskhelia`));
+
+//=> იგივე ფუნცია ანუ დააბრუნე ესა და ეს 
+
+// მეორე მაგალითი 
+
+const technology = (digital, technologyy)=> `${digital} ${technologyy}`
+console.log(technology(`ციფრული `,`ტექნოლოგია`));
+
+//for of for in
+
 
